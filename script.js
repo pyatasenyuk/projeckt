@@ -1,16 +1,21 @@
 
 
 var forths = document.games.gen.value
-var fifth = document.games.exercise.value= GetRandomInt
+var fifth = document.games.exercise.value=GetRandomInt
+var firstses = document.games.mins.value
+var secondes = document.games.maxs.value
 
 function GetRandomInt(min,max) {
 
+    min=1
+    max=100
     return Math.floor(Math.random() * (max - min + 1)) + min;
-firstses=min
-secondes=max
-}
-/*
 
+}
+document.games.gen.onclick = function() {
+    alert()
+    }
+/*
 {
     document.games.gen.onclick
 
@@ -19,12 +24,9 @@ secondes=max
     return s;
 */
 
-var firstses = document.games.min.value
-var secondes = document.games.max.value
-    document.games.gen.onclick = function() {
-    console.log(GetRandomInt)
-}
-*/
+
+
+
 
 
 
