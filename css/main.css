@@ -1,0 +1,46 @@
+body {
+    
+    font-family: Roboto;
+    ::first-letter: red;
+   
+}
+#contact-form{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+    
+}
+h1 {
+    color:aliceblue;
+    
+}
+body {
+    background-image: url("3d-abstract-black-dark-geometry-2501884-2560x1600.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#games{
+    margin: 0 auto;
+}
+.button {
+    
+    display: inline-block;
+    border-radius: 2px;
+    border-style:  none;   
+    color: black;
+    font-family: Roboto;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.button:hover {
+     background: rgb(53, 167, 110);
+}
+.tittle {
+    text-align: center;
+}
+p {
+    color:white;
+}
